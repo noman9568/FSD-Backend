@@ -24,7 +24,22 @@ const append = (fileName,data) =>{
 }
 
 const data = 'Nothing is necessary in this world.';
+const data1 = ' Nothing to write.';
 
-write('./data.txt',data)
-append('./data.txt','Nothing to write.');
+// write('./data.txt',data)
+// append('./data.txt',data1);
+
+
 console.log('After the write function.');
+
+
+// for deletion of file , the function used is unlink
+// fs.unlink(fileName)
+
+// creating directory -
+// fs.mkdir('myDir',(err)=>{})
+// fs.writeFile("./mydir/data.txt",'nothing',(err)=>{})
+// fs.unlink("./mydir/data.txt",(err)=>{})
+
+// Directory Deletion
+// fs.rmdir('mydir',(err)=>{})
