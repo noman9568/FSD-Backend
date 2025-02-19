@@ -43,3 +43,4 @@ console.log('After the write function.');
 
 // Directory Deletion
 // fs.rmdir('mydir',(err)=>{})
+// 
