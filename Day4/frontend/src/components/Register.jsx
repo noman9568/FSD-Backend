@@ -10,7 +10,7 @@ const Register = () => {
         alert('User registered successfully')
     }
   return (
-    <div>
+    <div className='register'>
       <h1>Register</h1>
       <form onSubmit={handleregister}>
         <label>

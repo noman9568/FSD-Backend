@@ -6,10 +6,12 @@ import './App.css'
 import Delete from './components/Delete'
 const App = () => {
   return (
-    <div>
+    <div className='main'>
       <h1>User Registration System</h1>
-      <Register/>
-      <Update/>
+      <section>
+        <Register/>
+        <Update/>
+      </section>
       <Delete/>
       <View/>
     </div>

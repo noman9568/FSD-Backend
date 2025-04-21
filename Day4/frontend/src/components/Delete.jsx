@@ -8,7 +8,7 @@ const Delete = () => {
         alert('User Deleted successfully')
       }
   return (
-    <div>
+    <div className='delete'>
         <h1>Delete User</h1>
       <form onSubmit={handleDelete}>
         <label>

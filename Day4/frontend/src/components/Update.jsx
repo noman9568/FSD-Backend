@@ -11,7 +11,7 @@ const Update = () => {
         alert('User updated successfully')
       }
   return (
-    <div>
+    <div className='update'>
         <h1>Update User</h1>
       <form onSubmit={handleupdate}>
         <label>

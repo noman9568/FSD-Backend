@@ -10,7 +10,7 @@ const View = () => {
         handleview();
      },[])
   return (
-    <div>
+    <div className='view'>
         <h1>View Registered Users</h1>
         <table>
             <thead>
